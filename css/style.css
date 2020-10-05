@@ -1,0 +1,27 @@
+@import url(./fonts.css);
+
+/* Navigation*/
+.header_area .main_menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+.header_area .main_menu .navbar {
+  padding: 1rem 8rem;
+}
+.header_area .main_menu .nav-item .nav-link {
+  font-family: "Roboto";
+  font-weight: 800;
+  padding: 1, 7rem;
+  color: snow;
+}
+.header_area .main_menu .navbar-nav .active a {
+  background: skyblue;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header_area .main_menu .navbar-nav a:hover {
+  background: skyblue;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
