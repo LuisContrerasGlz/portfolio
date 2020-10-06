@@ -69,3 +69,19 @@
   color: snow;
   box-shadow: rgb(90, 52, 133);
 }
+
+/* About Area */
+
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+.site-main .about-area .about-tittle h2 > span {
+  font: normal bold 49px/60px "Roboto";
+}
+.site-main .about-area .about-tittle .paragraph > p {
+  padding: 0.4rem 0;
+}
+
+p.para {
+  font: normal 500 16px/25px "Roboto";
+}
