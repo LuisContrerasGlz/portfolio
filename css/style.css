@@ -178,11 +178,9 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-.fab {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
+.contact-mail .fab {
+  padding: 6px;
   cursor: pointer;
   color: steelblue;
-  font-size: 50px;
+  font-size: 30px;
 }
