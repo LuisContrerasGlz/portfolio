@@ -13,6 +13,9 @@
 
     <!--custom css file-->
     <link rel="stylesheet" href="./css/style.css" />
+
+        <!--  Responsive css file  -->
+        <link rel="stylesheet" href="./css/responsive.css">
   </head>
   <body>
     <!--Header Area -->
@@ -105,9 +108,9 @@
       <section class="about-area">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12 ">
               <div class="about-image">
-                <img src="./img/about-me.jpg" alt="About me" class="img-fluid">
+                <img src="./img/about-me.jpg" alt="About me" class="img-fluid" >
               </div>
             </div>
             <div class="col-lg-6 col-md-12 about-tittle">
@@ -247,85 +250,89 @@
         </div>
       </section>
 
-      <!--Footer Conact me section-->
-      <footer>
-        <section class="contact">
-          <div class="container contact">
-            <div class="row">
-              <div class="col-lg-12 text-center contact-title">
-                <h4>Want to get in touch?</h4>
-                <h5>Let's work together</h5>
-                <p class="para">
-                  Here you will find links to my GitHub, my LinkedIn or if you prefer you can send me an email with this form. 
-                  Looking forward to salute you.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <div class="container contact-mail">
-
-          <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <form action="action_page.php">
-        
-              <label for="fname">Your Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-              <label for="subject">Your message</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            </form>
-          </div>
-          </div>
-
-          <div class="row">
-            <div class="container">
-              <!-- Content here -->
-              <form>
-             <form class="form-inline">
-             <div class="row">
-             <div class ="col">
-              <button type="submit" class="btn button primary-button mb-2">Submit</button>
-             </div>
-             
-             <div class ="col ml-auto">
-             
-             <div class="btn-toolbar float-right" role="toolbar">
-             <div class="btn-group" role="group">
-              <button type="submit" class="btn btn-info mb-2"><i class="fab fa-linkedin"></i></button>
-              </div>
-              <div class="btn-group" role="group">
-              <button type="submit" class="btn btn-info mb-2"><i class="fab fa-github"></i></button>
-              </div>
-             </div>
-              
-             
-             </div>
-             
-             </div>
-            </form>
-              </div>
-              </form>
-              
-            </div>
-            <!-- <div class="col-lg-6 col-md-12">
-              <input type="submit" value="Submit">
-            </div>
-            <div class="col-lg-6 col-md-12 text-right">
-              <i class="fab fa-linkedin"></i>
-              <i class="fab fa-github"></i>
-            </div>
-          </div> -->
-        </div>  
-        
-      </footer>
+      
     </main>
+    <!--Footer Conact me section-->
+    <footer>
+      <section class="contact">
+        <div class="container contact">
+          <div class="row">
+            <div class="col-lg-12 text-center contact-title">
+              <h4>Want to get in touch?</h4>
+              <h5>Let's work together</h5>
+              <p class="para">
+                Here you will find links to my GitHub, my LinkedIn or if you prefer you can send me an email with this form. 
+                Looking forward to salute you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container contact-mail">
+
+        <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <form action="action_page.php">
+      
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="subject">Your message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </form>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="container">
+            <!-- Content here -->
+            <form>
+           <form class="form-inline">
+           <div class="row">
+           <div class ="col">
+            <button type="submit" class="btn button primary-button mb-2">Submit</button>
+           </div>
+           
+           <div class ="col ml-auto">
+           
+           <div class="btn-toolbar float-right" role="toolbar">
+           <div class="btn-group" role="group">
+            <button type="submit" class="btn btn-info mb-2"><i class="fab fa-linkedin"></i></button>
+            </div>
+            <div class="btn-group" role="group">
+            <button type="submit" class="btn btn-info mb-2"><i class="fab fa-github"></i></button>
+            </div>
+           </div>
+            
+           
+           </div>
+           
+           </div>
+          </form>
+            </div>
+            </form>
+            
+          </div>
+          <!-- <div class="col-lg-6 col-md-12">
+            <input type="submit" value="Submit">
+          </div>
+          <div class="col-lg-6 col-md-12 text-right">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+          </div>
+        </div> -->
+      </div>  
+      
+    </footer>
 
     <!--Jquery js file-->
     <script src="./js/jquery_3.5.1.js"></script>
     <!--Bootstrap js file-->
     <script src="./js/bootstrap.min.js"></script>
+    <!--Custom main js file-->
+    <script src="./js/main.js"></script>
+
 
   </body>
 </html>
