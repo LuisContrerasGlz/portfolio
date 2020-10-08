@@ -1,5 +1,6 @@
 //Navigation menu
 $(document).ready(function () {
+  //Making the navbar visible on lower sections of the page
   let nav_offset_top = $(".header_area").height() + 550;
 
   function navbarFixed() {
@@ -16,4 +17,12 @@ $(document).ready(function () {
   }
 
   navbarFixed();
+  //JQuery animation for scrolling on the links in the navbar
+  $(".main_menu a").click(function (event) {
+    event.preventDefault();
+    $("html, body").animate(
+      { scrollTop: $($(this).attr("href")).offset().top },
+      500
+    );
+  });
 });

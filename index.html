@@ -19,7 +19,7 @@
   </head>
   <body>
     <!--Header Area -->
-    <header class="header_area">
+    <header class="header_area" id="mainhome">
       <div class="main_menu">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="#">Luis Contreras</a>
@@ -38,12 +38,12 @@
             <nav class="mr-auto"></nav>
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="#mainhome"
                   >Home <span class="sr-only">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#aboutme">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Proyects</a>
@@ -52,10 +52,10 @@
                 <a class="nav-link" href="#">Credentials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#test">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contactme">Contact</a>
               </li>
             </ul>
           </div>
@@ -66,7 +66,7 @@
     <!--Start of the Main Area-->
     <main class="site-main">
       <!--Banner Area-->
-      <section class="site-banner">
+      <section class="site-banner" id="home-pg">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-12 site-tittle">
@@ -105,7 +105,7 @@
       </section>
 
       <!--About me section-->
-      <section class="about-area">
+      <section class="about-area" id="aboutme">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6 col-md-12 ">
@@ -139,8 +139,8 @@
         </div>
       </section>
       <!--Testimonials section-->
-      <section class="about-area">
-        <div class="container">
+      <section class="about-area" id="test">
+        <div class="container" >
           <div class="row text-center">
             <div class="col-12">
               <div class="about-tittle">
@@ -254,7 +254,7 @@
     </main>
     <!--Footer Conact me section-->
     <footer>
-      <section class="contact">
+      <section class="contact" id="contactme">
         <div class="container contact">
           <div class="row">
             <div class="col-lg-12 text-center contact-title">
@@ -297,15 +297,14 @@
            <div class ="col ml-auto">
            
            <div class="btn-toolbar float-right" role="toolbar">
-           <div class="btn-group" role="group">
-            <button type="submit" class="btn btn-info mb-2"><i class="fab fa-linkedin"></i></button>
-            </div>
-            <div class="btn-group" role="group">
-            <button type="submit" class="btn btn-info mb-2"><i class="fab fa-github"></i></button>
-            </div>
+            <a href="https://www.linkedin.com/in/luis-francisco-contreras-gonzalez-45791715a/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/LuisContrerasGlz" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
            </div>
-            
-           
+
            </div>
            
            </div>

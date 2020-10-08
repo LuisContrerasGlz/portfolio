@@ -190,9 +190,30 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-.contact-mail .fab {
+.fa-github {
+  color: silver;
   padding: 6px;
   cursor: pointer;
+  font-size: 40px;
+}
+
+.fa-github:hover {
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.fa-linkedin {
   color: steelblue;
-  font-size: 30px;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.fa-linkedin:hover {
+  color: rgb(150, 196, 233);
+  padding: 6px;
+  cursor: pointer;
+  font-size: 40px;
 }
