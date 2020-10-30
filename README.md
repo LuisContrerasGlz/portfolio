@@ -8,3 +8,6 @@ On Projects page you will find my projects with their live demo link and also th
 On the credentials page you will find all my professional certifications and courses where you can see some of my achievements.
 (This page is also on works since the format is been checked for all the documents, coming soon)
 All pages have working links to different sections and pages to make it a positive experience for the viewer to interact with it, as well as been Responsive which is good to make sure this ensures that web applications render well on a variety of devices and window or screen sizes.
+
+Link to GitHub pages: https://luiscontrerasglz.github.io/portfolio/
+
