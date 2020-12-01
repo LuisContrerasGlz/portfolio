@@ -11,3 +11,4 @@ All pages have working links to different sections and pages to make it a positi
 
 Link to GitHub pages: https://luiscontrerasglz.github.io/portfolio/
 
+![Screenshot Index](./img/capture.png)
