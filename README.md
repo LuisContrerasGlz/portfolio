@@ -1,4 +1,4 @@
-Responsive Portfolio.
+# My Portfolio.
 
 This is my professional porfolio which contains my information and links to my different data such as my GitHub page, my Linkedin profile, my resume to view online or download if required, this information is contained on the home/index page.
 On the Navbar and in the content of the page there are buttons to navigate to the projects page and credentials page.
