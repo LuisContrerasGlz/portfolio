@@ -95,6 +95,8 @@
 }
 
 p.para {
+  font-size: 14px;
+  line-height: 1.5;
   font: normal 500 23px/35px "Roboto";
 }
 
