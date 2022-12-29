@@ -4,21 +4,25 @@
 .header_area .main_menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem;
 }
+
 .header_area .main_menu .navbar {
   padding: 1rem 8rem;
 }
+
 .header_area .main_menu .nav-item .nav-link {
   font-family: "Roboto";
   font-weight: 800;
   padding: 1, 7rem;
   color: snow;
 }
+
 .header_area .main_menu .navbar-nav .active a {
   background: skyblue;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
 .header_area .main_menu .navbar-nav a:hover {
   background: skyblue;
   -webkit-background-clip: text;
@@ -48,7 +52,7 @@
   font-size: 1.5rem;
 }
 
-.site-main .site-banner .banner-image > img {
+.site-main .site-banner .banner-image>img {
   padding: 7rem 0;
   width: 90rem;
   border-radius: 50%;
@@ -87,10 +91,12 @@
 .site-main .about-area {
   padding: 9rem 7rem;
 }
-.site-main .about-area .about-tittle h2 > span {
+
+.site-main .about-area .about-tittle h2>span {
   font: normal bold 49px/60px "Roboto";
 }
-.site-main .about-area .about-tittle .paragraph > p {
+
+.site-main .about-area .about-tittle .paragraph>p {
   padding: 0.4rem 0;
 }
 
@@ -100,51 +106,16 @@ p.para {
   font: normal 500 23px/35px "Roboto";
 }
 
-/**
- * Move bootstrap carousel controll arrow outside the contents.
- */
-$carouselArrowWidth: 3em;
-.carousel-control {
-  width: $carouselArrowWidth;
-  .icon-prev,
-  .icon-next,
-  .glyphicon-chevron-left,
-  .glyphicon-chevron-right {
-    margin: 0.2em;
-  }
-  .icon-prev,
-  .glyphicon-chevron-left {
-    left: 0;
-  }
-  .icon-next,
-  .glyphicon-chevron-right {
-    right: 0;
-  }
-}
-.carousel {
-  padding-left: $carouselArrowWidth + 0.5em;
-  padding-right: $carouselArrowWidth + 0.5em;
-}
 
-/**
-  * carousel control style
-  */
-.carousel-control {
-  opacity: 1;
-  color: #ccc;
-  text-shadow: none;
-  &.left,
-  &.right {
-    background-image: none;
-  }
-}
 .carousel-control:hover,
 .carousel-control:focus {
   color: #999;
 }
+
 .carousel {
   height: 380px;
 }
+
 .site-main .about-area .about-tittle p {
   padding: 1rem 7rem;
 }
@@ -160,14 +131,22 @@ footer {
 input[type="text"],
 select,
 textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -220,50 +199,50 @@ input[type="submit"]:hover {
   font-size: 40px;
 }
 
-  .filters {
-    margin: 20px 0;
-  }
+.filters {
+  margin: 20px 0;
+}
 
-  #filter {
-    width: 200px;
-    height: 40px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    font-size: 14px;
-  }
+#filter {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+}
 
-  .certification-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px -10px;
-  }
+.certification-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px -10px;
+}
 
+.certification {
+  flex: 0 0 calc(50% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+/* Make the certifications look good on small screens */
+@media (max-width: 768px) {
   .certification {
-    flex: 0 0 calc(50% - 20px);
-    margin: 10px;
-    text-align: center;
+    flex: 0 0 calc(100% - 20px);
   }
+}
 
-  /* Make the certifications look good on small screens */
-  @media (max-width: 768px) {
-    .certification {
-      flex: 0 0 calc(100% - 20px);
-    }
-  }
+.certification img {
+  width: 100%;
+  height: auto;
+}
 
-  .certification img {
-    width: 100%;
-    height: auto;
-  }
+.certification h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
 
-  .certification h2 {
-    font-size: 24px;
-    margin: 20px 0;
-  }
-
-  .certification p {
-    font-size: 14px;
-    color: #777;
-    margin: 0;
-  }
+.certification p {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
