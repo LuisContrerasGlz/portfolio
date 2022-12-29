@@ -24,7 +24,7 @@
     <header class="header_area" id="mainhome">
       <div class="main_menu">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="">Luis Contreras - My Projects.</a>
+          <a class="navbar-brand" href="">Luis Contreras - My Publications.</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -53,59 +53,69 @@
     </header>
 <!-- Main -->
 <main class="porfolio">
-  <h1 class="porfolioh1">My projects.</h1>
-  <hr>
-  
-  <h2 class="porfolioh2">Porfolio.</h2>
-  <p>Here you can see some of the projects I have done, you can play with the live demo or check the GitHub repository.</p>
-  
-  <!-- Portfolio Gallery Grid -->
-  <div class="row">
-    <div class="column">
-      <div class="content">
-        <img src="./img/soon.jpg" alt="soon" style="width:100%">
-        <br>
-        <br>
-        <h3>My Work</h3>
-        <br>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Exercitationem quidem autem tenetur dicta sint impedit natus suscipit est dolorem optio! Ad aut est vel rerum esse harum perspiciatis ducimus facere?.</p>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Publications</title>
+    <style>
+      /* Add your styles here */
+      .publication-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .publication {
+        width: 30%;
+        margin: 1em;
+        text-align: center;
+      }
+      .publication img {
+        width: 80%;
+        height: auto;
+        margin: 0.5em 0;
+      }
+      .publication h2 {
+        font-size: 1.2em;
+        margin: 0.5em 0;
+      }
+      .publication p {
+        font-size: 1em;
+        margin: 0.5em 0;
+      }
+      @media (max-width: 600px) {
+        .publication {
+          width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Publications</h1>
+    <div class="publication-list">
+      <div class="publication">
+        <img src="./images/art1.png" alt="Publication 1" />
+        <h2>SQ_Mag Number 12</h2>
+        <p>
+          Worked on an article for SQ mag #12 the second one, regarding the importance of teamwork, taking a closer look at the relationship between testers and developers and have found that - contrary to what many people think - this is much less a competition than an under- standing of teamwork
+        </p>
+        <a href="https://www.sq-mag.com/sq-mag-no-12/" title="SQ_Mag12" target="_blank">Read the article</a>
       </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <img src="./img/soon.jpg" alt="soon" style="width:100%">
-        <br>
-        <br>
-        <h3>My Work</h3>
-        <br>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Exercitationem quidem autem tenetur dicta sint impedit natus suscipit est dolorem optio! Ad aut est vel rerum esse harum perspiciatis ducimus facere?</p>
+      <div class="publication">
+        <img src="./images/art2.png" alt="Publication 3" />
+        <h2>SQ_Mag Number 9</h2>
+        <p>
+          Worked on an article for SQ mag regarding Agile and the relationship with testing.
+          Agile methods are playing an important role in boosting innovation and speed to market with products and services that deliver customer value, and quality, in a time of fast-changing conditions.
+          Agile is a multifaceted topic and in this new issue of SQ mag, our authors explore agile from multiple perspectives including organizational agility, high-performance quality engineering, agile testing, DevOps, and more.
+        </p>
+        <a href="https://www.sq-mag.com/all-issues/sq-mag-no-9/" title="SQ_Mag9" target="_blank">Read the article</a>
       </div>
+      <!-- Add more publication elements here -->
     </div>
-    <div class="column">
-      <div class="content">
-        <img src="./img/soon.jpg" alt="soon" style="width:100%">
-        <br>
-        <br>
-        <h3>My Work</h3>
-        <br>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Exercitationem quidem autem tenetur dicta sint impedit natus suscipit est dolorem optio! Ad aut est vel rerum esse harum perspiciatis ducimus facere?</p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-        <img src="./img/soon.jpg" alt="soon" style="width:100%">
-        <br>
-        <br>
-        <h3>My Work</h3>
-        <br>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Exercitationem quidem autem tenetur dicta sint impedit natus suscipit est dolorem optio! Ad aut est vel rerum esse harum perspiciatis ducimus facere?</p>
-      </div>
-    </div>
-  </div>
+  </body>
+</html>
   
 </main>
 
