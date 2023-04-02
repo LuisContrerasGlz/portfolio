@@ -200,16 +200,17 @@ input[type="submit"]:hover {
 }
 
 .filters {
-  margin: 20px 0;
+  margin-left: 20px;
 }
 
 #filter {
   width: 200px;
-  height: 40px;
+  height: 45px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 3px;
   padding: 10px;
-  font-size: 14px;
+  font-size: 12px;
+  margin-left: 20px;
 }
 
 .certification-list {
